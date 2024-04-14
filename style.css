@@ -1,7 +1,7 @@
 /*
 Theme Name: Blogcards
 Theme URI: http://alx.media/themes/blogcards/
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.5
@@ -493,7 +493,7 @@ body { background: #f6f7fa; }
 .blog-card-author-avatar { float: left; }
 .blog-card-author-avatar img { display: block; width: 48px; height: auto; border-radius: 100%; }
 .blog-card-author-name { float: left; margin: 10px 0 0 10px; } 
-.blog-card-title { font-size: 46px; font-weight: 400; line-height: 1.2; letter-spacing: -0.04em; margin-bottom: 30px; margin-top: 10%; }
+.blog-card-title { font-size: 44px; font-weight: 400; line-height: 1.2; letter-spacing: -0.04em; margin-bottom: 30px; margin-top: 10%; }
 .blog-card-excerpt { font-size: 19px; font-weight: 400; line-height: 1.6em; }
 .blog-card-title,
 .blog-card-excerpt { padding-left: 30px; padding-right: 30px; }

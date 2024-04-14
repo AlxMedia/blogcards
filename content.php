@@ -43,7 +43,7 @@
 				<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
 					<li class="blog-card-comments"><a class="blog-card-comments-link" href="<?php comments_link(); ?>"><i class="far fa-comment-alt"></i><span><?php comments_number( '0', '1', '%' ); ?></span></a></li>
 				<?php endif; ?>
-				<li class="blog-card-more"><a href="<?php the_permalink(); ?>"><i class="fas fa-arrow-right"></i><span>Read More</span></a></li>
+				<li class="blog-card-more"><a href="<?php the_permalink(); ?>"><i class="fas fa-arrow-right"></i><span><?php esc_html_e('Read More','blogcards'); ?></span></a></li>
 			</ul>
 			
 		</div>
