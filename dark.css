@@ -58,7 +58,7 @@ body:where(.dark) .blog-card:before { background-image: url(img/dot-pattern-ligh
 body:where(.dark) .blog-card:after,
 body:where(.dark) .blog-card-single-content:after { background: #444; box-shadow: none; }
 
-body:where(.dark) .featured-card { border-right: 1px solid rgba(255,255,255,0.06); }
+body:where(.dark) .featured-card-thumb-empty,
 body:where(.dark) .featured-card-thumb-empty,
 body:where(.dark) .featured-card-thumb-empty:hover { color: rgba(255,255,255,0.2); }
 body:where(.dark) .featured-card-thumb { border-color: rgba(255,255,255,0.06); }

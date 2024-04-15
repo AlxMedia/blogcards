@@ -46,8 +46,8 @@
 	
 	.entry-header .entry-title { font-size: 32px; }
 	
-	.slick-featured .slick-posts-nav { position: relative; left: auto; right: auto; bottom: -60px; text-align: center; width: 70px; margin: 0 auto; }
-	.featured-card { border-right: 0; margin-left: 0; padding-right: 0; }
+	.slick-featured .slick-posts-nav { position: relative; left: auto; right: auto; bottom: -40px; text-align: center; width: 70px; margin: 0 auto; }
+	.featured-card { padding-right: 0; }
 	
 	.wrapper-outer { overflow: hidden; padding: 0; }
 	.wrapper-inner { padding-left: 20px; padding-right: 20px; }
