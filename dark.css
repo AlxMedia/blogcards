@@ -48,7 +48,7 @@ body:where(.dark) #footer { background: rgba(255,255,255,0.08); box-shadow: inse
 
 body:where(.dark) .slick-featured,
 body:where(.dark) .blog-card,
-body:where(.dark) .blog-card-single-content { background: #333; box-shadow: none; }
+body:where(.dark) .blog-card-single-content { background: #333; box-shadow: inset 0 0 2px rgba(255,255,255,0.2); }
 
 body:where(.dark) .blog-card-author { border-bottom-color: rgba(255,255,255,0.06); }
 body:where(.dark) .blog-card-bottom { background: #333; box-shadow: inset 0 0 2px rgba(255,255,255,0.2)!important; }

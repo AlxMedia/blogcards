@@ -68,6 +68,10 @@ Blog images
 
 == Changelog ==
 
+= 1.0.3 - 2024-04-15 =
+* Added box shadow to dark cards
+* Added slight zoom on hover over large featured images
+
 = 1.0.2 - 2024-04-15 =
 * Improved responsive css and top carousel styling
 * Updated screenshot

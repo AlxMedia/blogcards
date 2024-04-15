@@ -7,9 +7,10 @@
 			<div class="blog-card-right-inner" style="background-image:url('<?php the_post_thumbnail_url('blogcards-medium'); ?>');">
 				
 				<a href="<?php the_permalink(); ?>" class="blog-card-link"></a>
-				<div class="blog-card-date"><i class="far fa-calendar"></i> <?php the_time( get_option('date_format') ); ?></div>
-
+				
 			</div>
+			
+			<div class="blog-card-date"><i class="far fa-calendar"></i> <?php the_time( get_option('date_format') ); ?></div>
 			
 		</div>
 		

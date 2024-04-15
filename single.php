@@ -6,13 +6,11 @@
 		
 		<div class="blog-card-right">
 			
-			<div class="blog-card-right-inner" style="background-image:url('<?php the_post_thumbnail_url('blogcards-large'); ?>');">
+			<div class="blog-card-right-inner" style="background-image:url('<?php the_post_thumbnail_url('blogcards-large'); ?>');"></div>
 			
-				<div class="blog-card-date"><i class="far fa-calendar"></i> <?php the_time( get_option('date_format') ); ?></div>
-				
-				<?php do_action( 'alx_ext_sharrre' ); ?>
-				
-			</div>
+			<div class="blog-card-date"><i class="far fa-calendar"></i> <?php the_time( get_option('date_format') ); ?></div>
+			
+			<?php do_action( 'alx_ext_sharrre' ); ?>
 			
 		</div>
 				

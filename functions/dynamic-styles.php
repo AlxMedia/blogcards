@@ -121,6 +121,7 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 				$styles .= '
 .slick-featured,
 .blog-card,
+.blog-card-right,
 .blog-card-right-inner,
 .blog-card-bottom,
 .blog-card-bottom-list li.blog-card-more a,
