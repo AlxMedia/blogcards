@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blogcards\n"
-"POT-Creation-Date: 2024-04-14 21:35+0200\n"
+"POT-Creation-Date: 2024-04-15 18:46+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: functions/class-tgm-plugin-activation.php\n"
 "X-Poedit-SearchPathExcluded-1: functions/kirki\n"
 
-#: content.php:22 single.php:45
+#: content.php:23 single.php:43
 msgid "by"
 msgstr ""
 
-#: content.php:46
+#: content.php:47
 msgid "Read More"
 msgstr ""
 
@@ -75,19 +75,19 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:525
+#: functions.php:526
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:529
+#: functions.php:530
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:533
+#: functions.php:534
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:537
+#: functions.php:538
 msgid "WP-PageNavi"
 msgstr ""
 
@@ -504,18 +504,26 @@ msgid "Change color for the logo in dark mode"
 msgstr ""
 
 #: functions/theme-options.php:390
-msgid "Border Radius Design"
+msgid "Alternate Featured Image Side"
 msgstr ""
 
 #: functions/theme-options.php:391
+msgid "Make each even entry image show on left side instead of right"
+msgstr ""
+
+#: functions/theme-options.php:399
+msgid "Border Radius Design"
+msgstr ""
+
+#: functions/theme-options.php:400
 msgid "Set to 0 for default radiuses"
 msgstr ""
 
-#: functions/theme-options.php:404
+#: functions/theme-options.php:413
 msgid "Gradient Left"
 msgstr ""
 
-#: functions/theme-options.php:412
+#: functions/theme-options.php:421
 msgid "Gradient Right"
 msgstr ""
 
@@ -565,10 +573,10 @@ msgstr ""
 msgid "To search type and hit enter"
 msgstr ""
 
-#: single.php:51
+#: single.php:49
 msgid "Pages:"
 msgstr ""
 
-#: single.php:59
+#: single.php:57
 msgid "Tags:"
 msgstr ""

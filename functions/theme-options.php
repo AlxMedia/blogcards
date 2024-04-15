@@ -383,6 +383,15 @@ Kirki::add_field( 'blogcards_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'on',
 ) );
+// Styling: Theme Toggle
+Kirki::add_field( 'blogcards_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'right-left-cards',
+	'label'			=> esc_html__( 'Alternate Featured Image Side', 'blogcards' ),
+	'description'	=> esc_html__( 'Make each even entry image show on left side instead of right', 'blogcards' ),
+	'section'		=> 'styling',
+	'default'		=> 'on',
+) );
 // Styling: Thumbnail Border Radius
 Kirki::add_field( 'blogcards_theme', array(
 	'type'			=> 'slider',
