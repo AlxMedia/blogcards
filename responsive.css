@@ -89,6 +89,9 @@
 	.site-header { margin-bottom: 0; }
 	#theme-toggle { left: -10px; bottom: 10px; }
 	
+	.slick-featured,
+	.blog-card { margin-top: 10px; margin-left: 10px; margin-right: 10px; }
+	.blog-card-single-content { margin-left: 10px; margin-right: 10px; }
 	.blog-card-left-inner { padding-bottom: 150px; }
 	.blog-card-title { font-size: 24px; }
 	.blog-card-excerpt { font-size: 14px; }
