@@ -110,7 +110,7 @@ jQuery(document).ready(function($) {
 		  breakpoint: 720,
 		  settings: {
 			slidesToShow: 1,
-			arrows: false,
+			dots: false,
 		  }
 		}
 	  ]
