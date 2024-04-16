@@ -68,10 +68,12 @@ Blog images
 
 == Changelog ==
 
-= 1.0.3 - 2024-04-15 =
+= 1.0.3 - 2024-04-16 =
+* Improved responsive css
 * Added option to alternate side of featured images in blog lists
 * Added box shadow to dark cards
 * Added slight zoom on hover over large featured images
+* Updated screenshot
 
 = 1.0.2 - 2024-04-15 =
 * Improved responsive css and top carousel styling
