@@ -21,6 +21,7 @@
 	.blog-card-bottom-list li.blog-card-more { padding: 10px; }
 	.blog-card-bottom-list li.blog-card-more a { padding: 8px 20px; }
 	.blog-card-bottom-list li.blog-card-more a span { display: none; }
+	.blog-card-bottom-list li.blog-card-more a i { margin-right: 0; }
 	.blog-card-bottom-list li.blog-card-category, 
 	.blog-card-bottom-list li.blog-card-comments { padding: 18px 30px; }
 	
@@ -93,12 +94,14 @@
 	.slick-featured,
 	.blog-card { margin-top: 10px; margin-left: 10px; margin-right: 10px; }
 	.blog-card-single-content { margin-left: 10px; margin-right: 10px; }
-	.blog-card-left-inner { padding-bottom: 150px; }
-	.blog-card-title { font-size: 24px; }
+	.blog-card-left-inner { padding-top: 20px; padding-bottom: 110px; }
+	.blog-card-date { font-size: 13px; }
+	.blog-card-author { font-size: 14px; padding-bottom: 10px; margin-bottom: 10px; }
+	.blog-card-title { margin-top: 20px; font-size: 24px; }
 	.blog-card-excerpt { font-size: 14px; }
 	.blog-card-bottom-list li.blog-card-category, 
 	.blog-card-bottom-list li.blog-card-comments { padding: 12px 20px; }
-	.blog-card-bottom-list li.blog-card-more { width: 100%; box-sizing: border-box; border-top: 1px solid rgba(0,0,0,0.06); }
+	.blog-card-bottom-list li.blog-card-more { padding: 0; width: 100%; box-sizing: border-box; border-top: 1px solid rgba(0,0,0,0.06); }
 	.blog-card-bottom-list li.blog-card-more a { float: right; }
 	.blog-card-single-head .blog-card-bottom-list li.blog-card-more { display: none; }
 	.blog-card-single-content { padding-top: 30px; }
