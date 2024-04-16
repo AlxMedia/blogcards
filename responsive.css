@@ -93,6 +93,7 @@
 	#theme-toggle { left: -10px; bottom: 10px; }
 	
 	.featured-card-title { min-height: 68px; max-height: 68px; overflow: hidden; }
+	.featured-card-more { right: -20px; bottom: -20px; }
 	.slick-featured,
 	.blog-card { margin-top: 10px; margin-left: 10px; margin-right: 10px; }
 	.blog-card-single-content { margin-left: 10px; margin-right: 10px; }
