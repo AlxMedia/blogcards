@@ -422,3 +422,11 @@ Kirki::add_field( 'blogcards_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '#ff0000',
 ) );
+// Styling: Theme Color
+Kirki::add_field( 'blogcards_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'theme-color',
+	'label'			=> esc_html__( 'Theme Color (Dark Mode)', 'blogcards' ),
+	'section'		=> 'styling',
+	'default'		=> '#1e1e1e',
+) );

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blogcards\n"
-"POT-Creation-Date: 2024-04-15 18:46+0200\n"
+"POT-Creation-Date: 2024-04-16 17:57+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -525,6 +525,10 @@ msgstr ""
 
 #: functions/theme-options.php:421
 msgid "Gradient Right"
+msgstr ""
+
+#: functions/theme-options.php:429
+msgid "Theme Color (Dark Mode)"
 msgstr ""
 
 #: header.php:25

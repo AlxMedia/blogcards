@@ -68,6 +68,9 @@ Blog images
 
 == Changelog ==
 
+= 1.0.4 - 2024-04-16 =
+* Added styling option to set theme color
+
 = 1.0.3 - 2024-04-16 =
 * Improved responsive css
 * Added option to alternate side of featured images in blog lists
