@@ -20,8 +20,11 @@
 			</h3>
 			
 			<div class="featured-card-date"><?php the_time( get_option('date_format') ); ?></div>
-		
+
 		</div>
 		
+		<a class="featured-card-more" href="<?php the_permalink(); ?>"><i class="fas fa-arrow-right"></i></a>
+
 	</div>
+
 </div>

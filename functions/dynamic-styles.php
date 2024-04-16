@@ -126,6 +126,7 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 .blog-card-bottom,
 .blog-card-bottom-list li.blog-card-more a,
 .blog-card-date,
+.featured-card-more,
 .alx-tabs-nav,
 .alx-posts img,
 .author-bio,
@@ -153,7 +154,8 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after,
 .themeform input[type="submit"],
-.blog-card-bottom-list li.blog-card-more a { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
+.blog-card-bottom-list li.blog-card-more a,
+.featured-card-more { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
 				'."\n";
 			}
 			// gradient right
@@ -164,7 +166,8 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after,
 .themeform input[type="submit"],
-.blog-card-bottom-list li.blog-card-more a { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
+.blog-card-bottom-list li.blog-card-more a,
+.featured-card-more { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
 				'."\n";
 			}
 			// header logo max-height

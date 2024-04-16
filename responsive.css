@@ -47,6 +47,7 @@
 	
 	.entry-header .entry-title { font-size: 32px; }
 	
+	.featured-card-more { display: block; }
 	.slick-featured .slick-posts-nav { position: relative; left: auto; right: auto; bottom: -40px; text-align: center; width: 70px; margin: 0 auto; }
 	.featured-card { padding-right: 0; }
 	
@@ -91,6 +92,7 @@
 	.site-header { margin-bottom: 0; }
 	#theme-toggle { left: -10px; bottom: 10px; }
 	
+	.featured-card-title { min-height: 68px; max-height: 68px; overflow: hidden; }
 	.slick-featured,
 	.blog-card { margin-top: 10px; margin-left: 10px; margin-right: 10px; }
 	.blog-card-single-content { margin-left: 10px; margin-right: 10px; }
