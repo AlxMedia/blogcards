@@ -68,6 +68,9 @@ Blog images
 
 == Changelog ==
 
+= 1.0.5 - 2024-04-18 =
+* Added header search button and option to enable or disable it
+
 = 1.0.4 - 2024-04-16 =
 * Added styling option to set theme color
 
