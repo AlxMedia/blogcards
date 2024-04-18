@@ -44,6 +44,9 @@ body:where(.dark) .themeform.searchform div:after { color: rgba(255,255,255,0.4)
 body:where(.dark) .social-links .social-tooltip:hover:after { background: #fff; color: #000; }
 body:where(.dark) .social-links .social-tooltip:hover:before { border-color: #fff transparent; }
 
+body:where(.dark) .toggle-search .svg-icon { fill: #fff; }
+body:where(.dark) .toggle-search:focus #svg-search { fill: rgba(255,255,255,0.5); }
+
 body:where(.dark) #footer { background: rgba(255,255,255,0.08); box-shadow: inset 0 1px 0 rgba(255,255,255,0.06); }
 
 body:where(.dark) .slick-featured,

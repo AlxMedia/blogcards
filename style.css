@@ -453,7 +453,7 @@ body { background: #f6f7fa; }
 .slick-posts-nav .slick-prev:before { color: rgba(0,0,0,0.5); font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f053"; }
 .slick-posts-nav .slick-next:before { color: rgba(0,0,0,0.5); font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f054"; }
 
-.slick-featured .slick-posts { display: none; }
+.slick-posts { display: none; }
 .slick-featured .slick-dotted.slick-slider { margin-bottom: 0; }
 .slick-featured .slick-dots { bottom: -50px; box-sizing: border-box; }
 .slick-featured .slick-dots li { margin: 0 3px; }
@@ -563,6 +563,26 @@ body.dark #theme-toggle-btn:before { border-color: #fff; top: 2px; left: 2px; }
 .site-header img {  }
 .site-image { display: block; margin: 0 auto; max-height: 400px; }
 
+.header-right { float: right; }
+.header-right #wrap-nav-header { float: left; }
+.header-search { float: right; margin: 20px 0 0 30px; }
+.toggle-search { background: transparent; outline: none; border: 0; text-align: center; cursor: pointer; margin: 0; padding: 0; display: block; }
+.search-expand { background-image: linear-gradient(90deg, #be1e1e 0%, #ff0000 100%); display: none; position: fixed; top: 0; left: 0; right: 0; width: auto; padding: 37px 0; z-index: 10; }
+.search-expand-inner { position: relative; }
+.search-expand .themeform.searchform input { background: transparent!important; color: rgba(255,255,255,0.75); width: 100%; font-size: 20px; border: 0!important; padding-left: 40px!important; }
+.search-expand .themeform.searchform input:focus { color: #fff; outline: none!important; }
+.search-expand .themeform.searchform div:after { color: #fff; font-size: 24px; top: 10px; left: 0; }
+.toggle-search .svg-icon { fill: #000; }
+.toggle-search:focus #svg-search { fill: rgba(0,0,0,0.5); }
+.toggle-search #svg-close { fill: #fff; }
+.toggle-search:focus #svg-close { fill: rgba(255,255,255,0.75); }
+
+body.header-search-active .header-search-overlay { position: fixed; background: rgba(0,0,0,0.4); top: 0; left: 0; right: 0; bottom: 0; }
+body.header-search-active .search-expand { display: block; }
+body.header-search-active.admin-bar .search-expand { top: var(--wp-admin--admin-bar--height); }
+body.header-search-active .search-expand-inner .searchform { margin-right: 40px; }
+body.header-search-active .search-expand-inner .toggle-search { position: absolute; right: 0; top: 12px; }
+
 
 /* ------------------------------------------------------------------------- *
  *  Section: Navigation
@@ -643,7 +663,7 @@ body.dark #theme-toggle-btn:before { border-color: #fff; top: 2px; left: 2px; }
 
 .nav-menu.mobile { padding: 0; }
 .nav-menu.mobile button:focus { outline: none; }
-.nav-menu.mobile > button { padding: 6px 20px; float: right; }
+.nav-menu.mobile > button { padding: 12px 20px; float: right; }
 .nav-menu.mobile button .svg-icon { transition: all 250ms; }
 .nav-menu.mobile button.active .svg-icon { transform: rotate(180deg); }
 .nav-menu.mobile ul { border: 0; }

@@ -173,6 +173,15 @@ Kirki::add_field( 'blogcards_theme', array(
 		'tags'		=> esc_html__( 'Related by tags', 'blogcards' ),
 	),
 ) );
+// Header: Search
+Kirki::add_field( 'blogcards_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'header-search',
+	'label'			=> esc_html__( 'Header Search', 'blogcards' ),
+	'description'	=> esc_html__( 'Search button in header', 'blogcards' ),
+	'section'		=> 'header',
+	'default'		=> 'on',
+) );
 // Footer: Widget Columns
 Kirki::add_field( 'blogcards_theme', array(
 	'type'			=> 'radio-image',

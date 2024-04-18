@@ -14,8 +14,7 @@ jQuery(document).ready(function($) {
 /*  Toggle header search
 /* ------------------------------------ */
 	$('.toggle-search').on('click', function() {
-		$('.toggle-search').toggleClass('active');
-		$('.search-expand').fadeToggle(250);
+		$('body').toggleClass('header-search-active');
             setTimeout(function(){
                 $('.search-expand input').focus();
             }, 300);
@@ -27,22 +26,7 @@ jQuery(document).ready(function($) {
 		$('html, body').animate({scrollTop:0},'slow');
 		return false;
 	});
-	
-/*  Parallax single post featured image
-/* ------------------------------------ */		
-	$(window).scroll(function () {
-		$(".main-header-single").css("background-position","center " + ($(this).scrollTop() / 20 + 50) + "%");
-	});	
-	
-	$(window).scroll(function() {
-		var scroll = $(window).scrollTop();
-		if (scroll >= 60) {
-			$('body').addClass("header-scrolled");
-		} else {
-			$('body').removeClass("header-scrolled");
-		}
-	});
-	
+		
 /*  Tabs widget
 /* ------------------------------------ */	
 	(function() {

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blogcards\n"
-"POT-Creation-Date: 2024-04-16 17:57+0200\n"
+"POT-Creation-Date: 2024-04-18 16:37+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -247,287 +247,295 @@ msgid "Related by tags"
 msgstr ""
 
 #: functions/theme-options.php:180
-msgid "Footer Widget Columns"
+msgid "Header Search"
 msgstr ""
 
 #: functions/theme-options.php:181
+msgid "Search button in header"
+msgstr ""
+
+#: functions/theme-options.php:189
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: functions/theme-options.php:190
 msgid "Select columns to enable footer widgets. Recommended number: 3"
 msgstr ""
 
-#: functions/theme-options.php:196
+#: functions/theme-options.php:205
 msgid "Footer Social Links"
 msgstr ""
 
-#: functions/theme-options.php:197
+#: functions/theme-options.php:206
 msgid "Social link icon buttons"
 msgstr ""
 
-#: functions/theme-options.php:205
+#: functions/theme-options.php:214
 msgid "Footer Logo"
 msgstr ""
 
-#: functions/theme-options.php:206
+#: functions/theme-options.php:215
 msgid "Upload your custom logo image"
 msgstr ""
 
-#: functions/theme-options.php:214
+#: functions/theme-options.php:223
 msgid "Footer Copyright"
 msgstr ""
 
-#: functions/theme-options.php:215
+#: functions/theme-options.php:224
 msgid "Replace the footer copyright text"
 msgstr ""
 
-#: functions/theme-options.php:223
+#: functions/theme-options.php:232
 msgid "Footer Credit"
 msgstr ""
 
-#: functions/theme-options.php:224
+#: functions/theme-options.php:233
 msgid "Footer credit text"
 msgstr ""
 
-#: functions/theme-options.php:231
+#: functions/theme-options.php:240
 msgid "Create Social Links"
 msgstr ""
 
-#: functions/theme-options.php:232
+#: functions/theme-options.php:241
 msgid "Create and organize your social links"
 msgstr ""
 
-#: functions/theme-options.php:234
+#: functions/theme-options.php:243
 msgid "Font Awesome names:"
 msgstr ""
 
-#: functions/theme-options.php:234 functions/theme-options.php:251
+#: functions/theme-options.php:243 functions/theme-options.php:260
 msgid "View All"
 msgstr ""
 
-#: functions/theme-options.php:237
+#: functions/theme-options.php:246
 msgid "social link"
 msgstr ""
 
-#: functions/theme-options.php:244
+#: functions/theme-options.php:253
 msgid "Title"
 msgstr ""
 
-#: functions/theme-options.php:245
+#: functions/theme-options.php:254
 msgid "Ex: Facebook"
 msgstr ""
 
-#: functions/theme-options.php:250
+#: functions/theme-options.php:259
 msgid "Icon Name"
 msgstr ""
 
-#: functions/theme-options.php:251
+#: functions/theme-options.php:260
 msgid "Font Awesome icons. Ex: fa-facebook "
 msgstr ""
 
-#: functions/theme-options.php:256
+#: functions/theme-options.php:265
 msgid "Link"
 msgstr ""
 
-#: functions/theme-options.php:257
+#: functions/theme-options.php:266
 msgid "Enter the full url for your icon button"
 msgstr ""
 
-#: functions/theme-options.php:262
+#: functions/theme-options.php:271
 msgid "Icon Color"
 msgstr ""
 
-#: functions/theme-options.php:263
+#: functions/theme-options.php:272
 msgid "Set a unique color for your icon (optional)"
 msgstr ""
 
-#: functions/theme-options.php:268
+#: functions/theme-options.php:277
 msgid "Open in new window"
 msgstr ""
 
-#: functions/theme-options.php:277
+#: functions/theme-options.php:286
 msgid "Dynamic Styles"
 msgstr ""
 
-#: functions/theme-options.php:278
+#: functions/theme-options.php:287
 msgid "Turn on to use the styling options below"
 msgstr ""
 
-#: functions/theme-options.php:286
+#: functions/theme-options.php:295
 msgid "Font"
 msgstr ""
 
-#: functions/theme-options.php:287
+#: functions/theme-options.php:296
 msgid "Select font for the theme"
 msgstr ""
 
-#: functions/theme-options.php:291
+#: functions/theme-options.php:300
 msgid "Titillium Web, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:292
+#: functions/theme-options.php:301
 msgid "Droid Serif, Latin"
 msgstr ""
 
-#: functions/theme-options.php:293
+#: functions/theme-options.php:302
 msgid "Source Sans Pro, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:294
+#: functions/theme-options.php:303
 msgid "Lato, Latin"
 msgstr ""
 
-#: functions/theme-options.php:295
+#: functions/theme-options.php:304
 msgid "Raleway, Latin"
 msgstr ""
 
-#: functions/theme-options.php:296
+#: functions/theme-options.php:305
 msgid "Inter, Latin"
 msgstr ""
 
-#: functions/theme-options.php:297
+#: functions/theme-options.php:306
 msgid "Ubuntu, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:298
+#: functions/theme-options.php:307
 msgid "Ubuntu, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:299
+#: functions/theme-options.php:308
 msgid "Roboto, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:300
+#: functions/theme-options.php:309
 msgid "Roboto, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:301
+#: functions/theme-options.php:310
 msgid "Roboto Condensed, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:302
+#: functions/theme-options.php:311
 msgid "Roboto Condensed, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:303
+#: functions/theme-options.php:312
 msgid "Roboto Slab, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:304
+#: functions/theme-options.php:313
 msgid "Roboto Slab, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:305
+#: functions/theme-options.php:314
 msgid "Playfair Display, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:306
+#: functions/theme-options.php:315
 msgid "Playfair Display, Latin / Cyrillic"
 msgstr ""
 
-#: functions/theme-options.php:307
+#: functions/theme-options.php:316
 msgid "Open Sans, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:308
+#: functions/theme-options.php:317
 msgid "Open Sans, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:309
+#: functions/theme-options.php:318
 msgid "PT Serif, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:310
+#: functions/theme-options.php:319
 msgid "PT Serif, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:311
+#: functions/theme-options.php:320
 msgid "Arial"
 msgstr ""
 
-#: functions/theme-options.php:312
+#: functions/theme-options.php:321
 msgid "Georgia"
 msgstr ""
 
-#: functions/theme-options.php:313
+#: functions/theme-options.php:322
 msgid "Verdana"
 msgstr ""
 
-#: functions/theme-options.php:314
+#: functions/theme-options.php:323
 msgid "Tahoma"
 msgstr ""
 
-#: functions/theme-options.php:321
+#: functions/theme-options.php:330
 msgid "Website Max-width"
 msgstr ""
 
-#: functions/theme-options.php:322
+#: functions/theme-options.php:331
 msgid "Max-width of the container"
 msgstr ""
 
-#: functions/theme-options.php:335
+#: functions/theme-options.php:344
 msgid "Content Max-width"
 msgstr ""
 
-#: functions/theme-options.php:336
+#: functions/theme-options.php:345
 msgid "Max-width of the content on posts and pages"
 msgstr ""
 
-#: functions/theme-options.php:349
+#: functions/theme-options.php:358
 msgid "Header Logo Image Max-height"
 msgstr ""
 
-#: functions/theme-options.php:350
+#: functions/theme-options.php:359
 msgid ""
 "Your logo image should have the double height of this to be high resolution"
 msgstr ""
 
-#: functions/theme-options.php:363
+#: functions/theme-options.php:372
 msgid "Dark Theme"
 msgstr ""
 
-#: functions/theme-options.php:364
+#: functions/theme-options.php:373
 msgid "Use dark instead of light base"
 msgstr ""
 
-#: functions/theme-options.php:372
+#: functions/theme-options.php:381
 msgid "Light/Dark Theme Toggle"
 msgstr ""
 
-#: functions/theme-options.php:373
+#: functions/theme-options.php:382
 msgid "Do not use with dark theme enabled"
 msgstr ""
 
-#: functions/theme-options.php:381
+#: functions/theme-options.php:390
 msgid "Invert Dark Logo Color"
 msgstr ""
 
-#: functions/theme-options.php:382
+#: functions/theme-options.php:391
 msgid "Change color for the logo in dark mode"
 msgstr ""
 
-#: functions/theme-options.php:390
+#: functions/theme-options.php:399
 msgid "Alternate Featured Image Side"
 msgstr ""
 
-#: functions/theme-options.php:391
+#: functions/theme-options.php:400
 msgid "Make each even entry image show on left side instead of right"
 msgstr ""
 
-#: functions/theme-options.php:399
+#: functions/theme-options.php:408
 msgid "Border Radius Design"
 msgstr ""
 
-#: functions/theme-options.php:400
+#: functions/theme-options.php:409
 msgid "Set to 0 for default radiuses"
 msgstr ""
 
-#: functions/theme-options.php:413
+#: functions/theme-options.php:422
 msgid "Gradient Left"
 msgstr ""
 
-#: functions/theme-options.php:421
+#: functions/theme-options.php:430
 msgid "Gradient Right"
 msgstr ""
 
-#: functions/theme-options.php:429
+#: functions/theme-options.php:438
 msgid "Theme Color (Dark Mode)"
 msgstr ""
 

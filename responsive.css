@@ -29,7 +29,7 @@
 	
 }
 
-@media only screen and (max-width: 719px) {
+@media only screen and (max-width: 719px) {	
 	.blog-card { min-height: auto; }
 	.blog-card-inner { display: block; }
 	.blog-card-right { width: 100%; aspect-ratio: 16/9; }
@@ -70,6 +70,11 @@
 	.site-title { padding: 4px 0; margin: 0; width: 100%; float: none; line-height: 50px; border-bottom: 1px solid rgba(0,0,0,0.06); }
 	.site-title a { text-align: center; }
 	.site-description { display: none; }
+	.header-right,
+	.header-right #wrap-nav-header { float: none; }
+	.header-right { position: relative; }
+	.header-search { float: none; position: absolute; left: 0; top: 0; margin: 10px 0 0 20px; }
+	.search-expand { padding-top: 28px; padding-bottom: 28px; }
 	.site-header { margin-top: 0; margin-bottom: 20px; }
 	.social-links .social-tooltip:hover:after,
 	.social-links .social-tooltip:hover:before { display: none; }
@@ -90,6 +95,8 @@
 	.wrapper-inner { padding-left: 0; padding-right: 0; }
 	#header { margin-bottom: 0; }
 	.site-header { margin-bottom: 0; }
+	.search-expand { padding: 30px 20px; }
+	.search-expand .themeform.searchform input { font-size: 17px; }
 	#theme-toggle { left: -10px; bottom: 10px; }
 	
 	.featured-card-title { min-height: 68px; max-height: 68px; overflow: hidden; }

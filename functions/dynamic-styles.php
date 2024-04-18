@@ -149,6 +149,7 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 			// gradient left
 			if ( get_theme_mod('gradient-left','#be1e1e') != '#be1e1e' ) {
 				$styles .= '
+.search-expand,
 #theme-toggle-btn:before,
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after,
@@ -161,6 +162,7 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 			// gradient right
 			if ( get_theme_mod('gradient-right','#ff0000') != '#ff0000' ) {
 				$styles .= '
+.search-expand,
 #theme-toggle-btn:before,
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after,
