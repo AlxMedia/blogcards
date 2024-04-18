@@ -575,7 +575,7 @@ body.dark #theme-toggle-btn:before { border-color: #fff; top: 2px; left: 2px; }
 .toggle-search .svg-icon { fill: #000; }
 .toggle-search:focus #svg-search { fill: rgba(0,0,0,0.5); }
 .toggle-search #svg-close { fill: #000; }
-.toggle-search:focus #svg-close { fill: rgba(0,0,0,0.75); }
+.toggle-search:focus #svg-close { fill: rgba(0,0,0,0.5); }
 
 body.header-search-active .header-search-overlay { position: fixed; background: rgba(0,0,0,0.4); top: 0; left: 0; right: 0; bottom: 0; }
 body.header-search-active .search-expand { display: block; }
