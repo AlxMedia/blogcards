@@ -19,6 +19,9 @@ jQuery(document).ready(function($) {
                 $('.search-expand input').focus();
             }, 300);
 	});
+	$('.header-search-overlay').on('click', function() {
+		$('body').toggleClass('header-search-active');
+	});
 
 /*  Scroll to top
 /* ------------------------------------ */
