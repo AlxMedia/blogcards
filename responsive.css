@@ -126,6 +126,8 @@
 	body.single .small-heading { margin-left: 20px; margin-right: 20px; }
 	
 	.pagination { margin-top: 60px; }
+	.comments-nav .next,
+	.comments-nav .prev { width: 100%; }
 	
 	.page-title { padding: 20px 20px 0; }
 	.page-title .contentbox { font-size: 15px; margin-bottom: 20px; margin-top: -20px; }

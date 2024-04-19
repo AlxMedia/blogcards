@@ -443,19 +443,6 @@ if ( ! function_exists( 'blogcards_excerpt_length' ) ) {
 add_filter( 'excerpt_length', 'blogcards_excerpt_length', 999 );
 
 
-/*  Comments avatar size
-/* ------------------------------------ */
-if ( ! function_exists( 'blogcards_comments_avatar_size' ) ) {
-	
-	function blogcards_comments_avatar_size( $args ) {
-		$args['avatar_size'] = 64;
-		return $args;
-	}
-	
-}
-add_filter( 'wp_list_comments_args', 'blogcards_comments_avatar_size' );
-
-
 /* ------------------------------------------------------------------------- *
  *  Actions
 /* ------------------------------------------------------------------------- */	
