@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, custom-colors, custom-menu, feature
 
 == Description ==
 
-Blogcards is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique large card design, including dark/light mode. Set to any accent and background colors you want, or add border radius to the design in styling options. Demo: http://demo.alx.media/x/?theme=Blogcards
+Blogcards is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique large card design, including dark/light mode. Set to any accent and background colors you want, or add border radius to the design in styling options. Demo: https://demo.agnarson.com/?theme=Blogcards
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Blogcards is a flexible blog theme with plenty of options. Optimized for all dev
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
